@@ -1,0 +1,14 @@
+function example() {
+  var x = 10;
+  let y = 20;
+  if (true) {
+    var x = 30; // Biến x ở đây là biến x trong phạm vi hàm
+    let y = 40; // Biến y ở đây là biến y trong phạm vi khối if
+    console.log(x); // Output: 30
+    console.log(y); // Output: 40
+  }
+  console.log(x); // Output: 30
+  console.log(y); // Output: 20 (biến y trong phạm vi hàm)
+}
+
+example();
