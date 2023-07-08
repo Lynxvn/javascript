@@ -12,3 +12,4 @@ const a = (b) => {
 var c = a(hours)
 console.log(c)
 console.log(hours)
+
