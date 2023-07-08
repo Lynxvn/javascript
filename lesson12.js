@@ -16,17 +16,13 @@ const salaryperweek = (hours, hours1) => {
     return salaryinweekdays(hours) + salaryinweekends(hours1);
 }
 
-
 const salarypermonth = (hours, hours1) => {
     return salaryperweek(hours, hours1) * 4;
 }
 
-
 const roombill = (roombillperweek) => {
     return roombillperweek * 4;
 }
-
-
 const money = (hours,hours1,roombillperweek)=>{
     return salarypermonth(hours,hours1)-roombill(roombillperweek);
 }
