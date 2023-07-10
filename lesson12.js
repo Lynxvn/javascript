@@ -23,8 +23,8 @@ const salarypermonth = (hours, hours1) => {
 const roombill = (roombillperweek) => {
     return roombillperweek * 4;
 }
-const money = (hours,hours1,roombillperweek)=>{
-    return salarypermonth(hours,hours1)-roombill(roombillperweek);
+const money = (hours, hours1, roombillperweek) => {
+    return salarypermonth(hours, hours1) - roombill(roombillperweek);
 }
-var b=money(20,8,250)
+var b = money(20, 8, 250)
 console.log(b)
