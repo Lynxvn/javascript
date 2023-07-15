@@ -16,18 +16,21 @@
 # Nhập số giờ làm việc trong một tuần và mức lương trên giờ từ người dùng
 # a= int(input("Số giờ làm việc trong một tuần: "))
 # b= int(input("Mức lương trên giờ: "))
-# # Tính toán tiền lương trong một tuần và In ra số tiền 
+# # Tính toán tiền lương trong một tuần và In ra số tiền
 # print(a*b)
 
 
 # Tạo một mảng để lưu giờ làm việc trong tuần
 
 # Nhập số giờ làm việc cho mỗi ngày trong tuần
-days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
-for i in range(len(days)):
- float(input("Giờ làm vào "+ days[i]+ " :"))
-
-#In ra số h làm việc trng tuần
+# days = ["Monday", "Tuesday", "Wednesday",
+#         "Thursday", "Friday", "Saturday", "Sunday"]
+# total = []
+# for i in range(len(days)):
+#     a = float(input("Giờ làm vào " + days[i] + " :"))
+#     total.append(a)
+# print(total)
+# In ra số h làm việc trng tuần
 
 
 # Output mẫu:
@@ -41,21 +44,25 @@ for i in range(len(days)):
 # Số giờ làm việc trong tuần: [8.0, 7.5, 6.0, 8.25, 7.75, 4.5, 0.0]
 
 
-
-
-
 #  -----------------------------------------
 
 # Tạo một mảng để lưu mục tiêu và tiến độ
+days = ["Monday", "Tuesday"]
+for i in range(len(days)):
+    a = input("Nhập mục tiêu cho ngày "+days[i]+":")
+    b = input("Nhập tiến độ cho ngày "+days[i]+":")
+    print("Ngày "+days[i]+ ":" + "Mục tiêu-" +a+";"+"Tiến độ-" +b)
 
 
+    
 # Nhập thông tin mục tiêu và tiến độ cho các ngày trong tuần
+# (bữa sau hoc)
 
 
 # In ra danh sách mục tiêu và tiến độ
 
 
-# Out put vd 
+# Out put vd
 # Nhập mục tiêu cho ngày 1: Học Python
 # Nhập tiến độ cho ngày 1: Đã hoàn thành 50%
 # Nhập mục tiêu cho ngày 2: Đọc sách

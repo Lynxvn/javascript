@@ -32,3 +32,17 @@ tong = a +b
 console.log(tong)
 
 
+
+// Back end : Python(Django) , Java, 
+
+// Data base 
+// Framework : nhiều thư viện 
+
+// Front end : React (viet = javascript, tao bởi facebook ), react native (mobile), swift ( tạo ra apple), 
+
+
+// Tech stack : 
+
+// <Success/> : component 
+
+STEM
