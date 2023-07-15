@@ -58,12 +58,13 @@
 
 // Bài tập 1: Xử lý thời gian
 // Viết một đoạn mã JavaScript để lấy thời gian hiện tại và hiển thị theo định dạng 'Giờ:Phút:Giây':
-let today= new Date()
-console.log(today)
+// let today= new Date()
+// console.log(today)
 // Bài tập 2: Mảng ( array) 
 // Cho một mảng các số nguyên, viết một đoạn mã JavaScript để tính tổng các số trong mảng:
 
 // Bài tập 4: Chuyển đổi độ C sang độ F
 // Viết một hàm JavaScript nhận vào một độ C và chuyển đổi sang độ F:
-
+b =int(input("Độ C:"))
+print("Độ F là ", 9/5 * b + 32)
 // Viết một hàm JavaScript nhận vào một số và kiểm tra xem số đó có phải là số nguyên tố hay không:

@@ -25,7 +25,7 @@
 # Nhập số giờ làm việc cho mỗi ngày trong tuần
 days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 for i in range(len(days)):
- int(input("Giờ làm vào "+ days[i]+ " :"))
+ float(input("Giờ làm vào "+ days[i]+ " :"))
 
 #In ra số h làm việc trng tuần
 
