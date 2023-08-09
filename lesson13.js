@@ -14,35 +14,36 @@
 
 // var a = sum(1+2)
 // console.log(a)
-  //Ngôn ngữ Python
+//Ngôn ngữ Python
 // a = input("Nhập vào số thứ 1")
 // b = input("Nhập vào số thứ 2")
 // tong = a +b 
 // print(tong)
-  // Ngôn ngữ Javascript
+// Ngôn ngữ Javascript
 const prompt = require ("prompt-sync")({sigint: true})
 
-
-a = parseInt(prompt("Nhập vào số thứ 1: ")) //=> mac định là string 
-b = parseInt(prompt("Nhập vào số thứ 2: "))
-
+// a = parseInt(prompt("Nhập vào số thứ 1: ")) //=> mac định là string 
+// b = parseInt(prompt("Nhập vào số thứ 2: "))
 
 
-tong = a +b 
-console.log(tong)
 
-
+// tong = a +b 
+// console.log(tong)
+// in ra số chẵn  khi nguoi dung input vào mot so 
+c = parseInt(prompt("Làm tròn số:"))
+d = c % 2
+if (d == 0) {
+  console.log(c)
+} else {
+  console.log("Nô có kết quả")
+}
 
 // Back end : Python(Django) , Java, 
-
 // Data base 
 // Framework : nhiều thư viện 
 
 // Front end : React (viet = javascript, tao bởi facebook ), react native (mobile), swift ( tạo ra apple), 
-
-
 // Tech stack : 
-
 // <Success/> : component 
 
 // STEM
