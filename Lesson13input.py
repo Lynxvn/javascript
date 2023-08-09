@@ -47,11 +47,11 @@
 #  -----------------------------------------
 
 # Tạo một mảng để lưu mục tiêu và tiến độ
-days = ["Monday", "Tuesday"]
+days = ["Ngày 1", "Ngày 2"]
 for i in range(len(days)):
     a = input("Nhập mục tiêu cho ngày "+days[i]+":")
     b = input("Nhập tiến độ cho ngày "+days[i]+":")
-    print("Ngày "+days[i]+ ":" + "Mục tiêu-" +a+";"+"Tiến độ-" +b)
+print("Ngày "+days[i]+ ":" + "Mục tiêu-" +a+";"+"Tiến độ-" +b)
 
 
     

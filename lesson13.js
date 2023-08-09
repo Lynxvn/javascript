@@ -23,8 +23,8 @@
 const prompt = require ("prompt-sync")({sigint: true})
 
 
-a = parseInt(prompt("Nhập vào số thứ 1")) //=> mac định là string 
-b = parseInt(prompt("Nhập vào số thứ 2"))
+a = parseInt(prompt("Nhập vào số thứ 1: ")) //=> mac định là string 
+b = parseInt(prompt("Nhập vào số thứ 2: "))
 
 
 
@@ -45,4 +45,4 @@ console.log(tong)
 
 // <Success/> : component 
 
-STEM
+// STEM
