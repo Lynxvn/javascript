@@ -88,6 +88,3 @@
 // select shopping , game , study 
 // show bán hàng thuoc mảng trên 
 
-for (i = 1; i<Infinity; i++) {
-    console.log(i)
-}
