@@ -1,70 +1,70 @@
-// // // // tạo một function / hàm  để xác định tham số num là là số dương / âm / 0 
+// tạo một function / hàm  để xác định tham số num là là số dương / âm / 0 
 
-// // // // If x > 0 : in (duong)
-// // // // x < 0 : in (am )
-// // // // x = 0 : in ( so ko )
+// If x > 0 : in (duong)
+// x < 0 : in (am )
+// x = 0 : in ( so ko )
 
-// // // // if (condition1) {
-// // // //     // Thực hiện các hành động nếu điều kiện 1 đúng
-// // // //   } else if (condition2) {
-// // // //     // Thực hiện các hành động nếu điều kiện 2 đúng
-// // // //   } else {
-// // // //     // Thực hiện các hành động nếu cả hai điều kiện trên đều sai
-// // // //   }
+// if (condition1) {
+//     // Thực hiện các hành động nếu điều kiện 1 đúng
+//   } else if (condition2) {
+//     // Thực hiện các hành động nếu điều kiện 2 đúng
+//   } else {
+//     // Thực hiện các hành động nếu cả hai điều kiện trên đều sai
+//   }
 
-// // // function amduong(a) {
-// // //     if (a > 0) {
-// // //         return "a la dương"
-// // //     }
-// // //     else if (a < 0) {
-// // //         return "a la am"
-// // //     }
-// // //     else {
-// // //         return "a=0"
-// // //     }
-// // // }
-// // // var c = amduong(-2)
-// // // console.log(c)
+// function amduong(a) {
+//     if (a > 0) {
+//         return "a la dương"
+//     }
+//     else if (a < 0) {
+//         return "a la am"
+//     }
+//     else {
+//         return "a=0"
+//     }
+// }
+// var c = amduong(-2)
+// console.log(c)
 
-// // // IF else thời tiết nhiệc độ  quyết định việc bạn đi hoc 
-// // // nếu trời mưa -> mang ô đi hoc 
-// // // ko mưa      - nhiet độ < 10 -> ở nhà ko hoc 
-// // //             -  > 10 do -> đi hoc 
+// IF else thời tiết nhiệc độ  quyết định việc bạn đi hoc 
+// nếu trời mưa -> mang ô đi hoc 
+// ko mưa      - nhiet độ < 10 -> ở nhà ko hoc 
+//             -  > 10 do -> đi hoc 
 
-// // // tham số  a : nhiet do  : số 
-// // // b : troi mưa  : bool 
+// tham số  a : nhiet do  : số 
+// b : troi mưa  : bool 
 
 
-// // function thoitiet(a, troimua) {
-// //     // nếu troi mưa 
-// //     if (troimua) {
-// //         return "đi ngủ"
-// //     } else {
-// //         if (a < 10) {
-// //             return "ở nhà nghỉ phẻ"
-// //         }
-// //         else if (a > 10) {
-// //             return "đi học"
-// //         }
-// //         else { return "đội quần đi học" }
-// //     }
+// function thoitiet(a, troimua) {
+//     // nếu troi mưa 
+//     if (troimua) {
+//         return "đi ngủ"
+//     } else {
+//         if (a < 10) {
+//             return "ở nhà nghỉ phẻ"
+//         }
+//         else if (a > 10) {
+//             return "đi học"
+//         }
+//         else { return "đội quần đi học" }
+//     }
 
-// // }
-// // var h = thoitiet(2, false)
-// // console.log(h)
+// }
+// var h = thoitiet(2, false)
+// console.log(h)
 
-// // // a. có mưa 
-// // //     return "đi ngủ"
-// // // b. ko mưa 
-// // //     return "ở nhà nghỉ phẻ"
-// // //     return "đi học"
+// a. có mưa 
+//     return "đi ngủ"
+// b. ko mưa 
+//     return "ở nhà nghỉ phẻ"
+//     return "đi học"
 
-// // khai báo mot hàm : lấy số dư 
-// // function laydu(a,b){
-// //     return a%b
-// // }
-// //     var c=laydu(7,3)
-// //     console.log(c)
+// khai báo mot hàm : lấy số dư 
+// function laydu(a,b){
+//     return a%b
+// }
+//     var c=laydu(7,3)
+//     console.log(c)
 
 // /// IF else tối giản : chỉ được trong 2 điều kiện 
 // //condition ? expression1 : expression2
@@ -74,22 +74,22 @@
 // console.log(output)
 
 
-// // // số chẵn lẽ 
-// // // var number= 3
-// // // var c=(number%2==0)? "chẳn": "lẻ"
-// // // console.log(c)
+// số chẵn lẽ 
+// var number= 3
+// var c=(number%2==0)? "chẳn": "lẻ"
+// console.log(c)
 
 
-// // // cách viết khác của Function 
-// // // hello = function() {
-// // //     return "Hello World!";
-// // // }
+// cách viết khác của Function 
+// hello = function() {
+//     return "Hello World!";
+// }
 
 
-// // // Arrow function 
-// // const hello = () => {
-// //     return "Hello World!";
-// // }
+// // Arrow function 
+// const hello = () => {
+//     return "Hello World!";
+// }
 
 // // hello()
 
@@ -116,10 +116,10 @@
 // console.log(c)
 
 
-// // xài arrow function chuyễn độ F thành độ C  
-// // công thức : độ c = (5/9) * (độ F -32)
-// // biến :F
-// // trả về giá trị :c
+// xài arrow function chuyễn độ F thành độ C  
+// công thức : độ c = (5/9) * (độ F -32)
+// biến :F
+// trả về giá trị :c
 
 // const DoC=(f)=>{
 //     return (5/9) * (f -32);
