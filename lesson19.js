@@ -22,3 +22,6 @@
 //     const ketQua= numbers.map(binhPhuong)
 //     console.log(ketQua)
 // Yêu cầu: Viết một hàm sử dụng Map để tính bình phương của từng phần tử trong một mảng và trả về mảng mới chứa kết quả.
+
+
+

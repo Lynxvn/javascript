@@ -77,3 +77,4 @@ print("Ngày "+days[i]+ ":" + "Mục tiêu-" +a+";"+"Tiến độ-" +b)
 # Ngày 2: Mục tiêu - Đọc sách, Tiến độ - Đã hoàn thành 75%
 # ...
 # Ngày 7: Mục tiêu - Tập thể dục, Tiến độ - Chưa hoàn thành
+
