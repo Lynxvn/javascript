@@ -1,23 +1,23 @@
-// Đối tượng trong JavaScript OBJECT : information
-// sử dụng nhiều trong quản lí nhân viên 
+// // Đối tượng trong JavaScript OBJECT : information
+// // sử dụng nhiều trong quản lí nhân viên 
 
-var information = {
-    // key : value 
-    firstName: "Thu",
-    lastName: "Huynh" ,
-    salary: 1000,
-    school: "ABC", // print => cách 1: console.log(information.school), cách 2: console.log(information["school"])
-    fullName  : function() {
-        return this.firstName + " " + this.lastName
-    },
-    hobby : {
-        activity: 'painting' ,
-        when:  '6pm'    , 
-        where: "123 cdf street"
-    }
-}
-// console.log(information.hobby.where)
-console.log(information.hobby["where"])
+// var information = {
+//     // key : value 
+//     firstName: "Thu",
+//     lastName: "Huynh" ,
+//     salary: 1000,
+//     school: "ABC", // print => cách 1: console.log(information.school), cách 2: console.log(information["school"])
+//     fullName  : function() {
+//         return this.firstName + " " + this.lastName
+//     },
+//     hobby : {
+//         activity: 'painting' ,
+//         when:  '6pm'    , 
+//         where: "123 cdf street"
+//     }
+// }
+// // console.log(information.hobby.where)
+// console.log(information.hobby["where"])
 
 // var address = {
 //     street: "Phan Văn Trị",
@@ -64,3 +64,24 @@ console.log(information.hobby["where"])
 
 // console.log(address.diachi()) // output : 
 // console.log(information.fullName()) 
+
+// Object = { 
+//    Key: value, 
+//    Key: value,
+//}
+const person = {
+    name: 'John',
+    age: 30,
+  };
+
+const updatePerson = {
+    firstName : person.name,
+  
+} 
+
+console.log(updatePerson)
+console.log(person)
+
+
+
+  
