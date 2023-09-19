@@ -58,5 +58,5 @@ const newjob4 = { id: 4, title: 'Học guitar', status: job4.completed }
 Sài map
 
 const jobList2 = [newjob1, newjob2, newjob3, newjob4]
+//Array = [Object {key: value}]
 
-//const jobList2 = [newjob1, newjob2, newjob3, newjob4]
