@@ -80,7 +80,7 @@ const updatePerson = {
 } 
 
 console.log(updatePerson)
-console.log(person)
+//console.log(person)
 
 
 
