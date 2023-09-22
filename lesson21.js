@@ -6,11 +6,11 @@ working_hours = [5, 40, 6, 20, 16]
 
 // filter salary with  hours greater than or equal 16 
 
-// const salary = working_hours.filter(working_hour => working_hour >=16)
-// console.log(salary)
+const salaryfilter = working_hours.filter(working_hour => working_hour >=16)
+console.log(salaryfilter)
 
-// const salary = working_hours.map(working_hour => working_hour >=16)
-// console.log(salary)
+const salarymap = working_hours.map(working_hour => working_hour >=16)
+console.log(salarymap)
 
 
 
@@ -43,11 +43,11 @@ working_hours = [5, 40, 6, 20, 16]
 
 // console.log(element)
 
-const employees = [
-    { name: 'Alice', hourlyRate: 15, hoursWorked: 40 },
-    { name: 'Bob', hourlyRate: 20, hoursWorked: 35 },
-    { name: 'Charlie', hourlyRate: 18, hoursWorked: 42 },
-];
+// const employees = [
+//     { name: 'Alice', hourlyRate: 15, hoursWorked: 40 },
+//     { name: 'Bob', hourlyRate: 20, hoursWorked: 35 },
+//     { name: 'Charlie', hourlyRate: 18, hoursWorked: 42 },
+// ];
 
 //   sử dụng hàm map để tính salary return {name:  , salary:  }
 
@@ -56,9 +56,9 @@ const employees = [
 // })
 // console.log(salary)
 
-const salary = employees.map(employee => (
-    {name:  employee.name , salary: employee.hoursWorked * employee.hourlyRate })
-) 
+// const salary = employees.map(employee => (
+//     {name:  employee.name , salary: employee.hoursWorked * employee.hourlyRate })
+// ) 
 
 // ES6
 // const newArray = array.map(item => transformedItem);
@@ -66,4 +66,4 @@ const salary = employees.map(employee => (
 //     return number * number;
 //   });
 
-console.log(salary)
+// console.log(salary)

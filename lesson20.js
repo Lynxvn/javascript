@@ -39,57 +39,90 @@
 //     { id: 4, title: 'Học guitar', status: 'Hoàn thành' },
 //   ]
 
-const jobList = [
-  { id: 1, title: 'Làm bài tập lập trình', completed: false },
+// const jobList = [
+//   { id: 1, title: 'Làm bài tập lập trình', completed: false },
+//   { id: 2, title: 'Đọc sách', completed: true },
+//   { id: 3, title: 'Viết email', completed: false },
+//   { id: 4, title: 'Học guitar', completed: true },
+// ];
+// const job1 = { id: 1, title: 'Làm bài tập lập trình', completed: false }
+// const job2 = { id: 2, title: 'Đọc sách', completed: true }
+// const job3 = { id: 3, title: 'Viết email', completed: false }
+// const job4 = { id: 4, title: 'Học guitar', completed: true }
+// //Sài map
+// const job1a =
+//   { id: 1, title: 'Làm bài tập lập trình', status: job1.completed }
+// const a = (b) => {
+//   if (b == true) {
+//     return { id: 1, title: 'Làm bài tập lập trình', status: "Xong òi ạ" }
+//   } else { return { id: 1, title: 'Làm bài tập lập trình', status: "chưa má ơi" } }
+// }
+// const job1b = a(job1.completed)
+// //console.log (job1b)
+
+
+
+// const job2a = { id: 2, title: 'Đọc sách', status: job2.completed }
+// const d = (e) => {
+//   if (e == true) {
+//     return { id: 2, title: 'Đọc sách', status: "Xong òi ạ" }
+//   } else { return { id: 2, title: 'Đọc sách', status: "chưa má ơi" } }
+// }
+// const job2b = d(job2.completed)
+// //console.log (job2b)
+
+
+
+// const job3a = { id: 3, title: 'Viết email', status: job3.completed }
+// const f = (h) => {
+//   if (h == true) {
+//     return { id: 3, title: 'Viết email', status: "Xong òi ạ" }
+//   } else { return { id: 3, title: 'Viết email', status: "chưa má ơi" } }
+// }
+
+
+// const job3b = f(job3.completed)
+
+
+// //console.log (job3b)
+
+
+
+
+// const job4a = { id: 4, title: 'Học guitar', status: job4.completed }
+// const e = (g) => {
+//   if (g == true) {
+//     return { id: 4, title: 'Học guitar', status: "Xong òi ạ" }
+//   } else { return { id: 4, title: 'Học guitar', status: "chưa má ơi" } }
+// }
+
+
+// const job4b = e(job4.completed)
+// //console.log (job4b)
+
+// jobList2 = [job1b, job2b, job3b, job4b]
+// const change = jobList2.map(key => ({ id: key.id, title: key.title, status: key.status }))
+// console.log(change)
+
+
+const jobListtest = [
+  { id: 1, title: 'Làm bài tập lập trình', completed: true },
   { id: 2, title: 'Đọc sách', completed: true },
   { id: 3, title: 'Viết email', completed: false },
   { id: 4, title: 'Học guitar', completed: true },
 ];
-const job1 = {id: 1, title: 'Làm bài tập lập trình', completed: false}
-const job2 = { id: 2, title: 'Đọc sách', completed: true }
-const job3 = { id: 3, title: 'Viết email', completed: false }
-const job4 ={ id: 4, title: 'Học guitar', completed: true }
-//Sài map
-const job1a =
-  { id: 1, title: 'Làm bài tập lập trình', status: job1.completed }
-  const a = (b) => {
-    if (b==true){
-      return {id: 1, title: 'Làm bài tập lập trình', status:"Xong òi ạ"}
-    }else{ return {id: 1, title: 'Làm bài tập lập trình', status:"chưa má ơi"}} }
-  const job1b=a(job1.completed)
-  //console.log (job1b)
 
 
+// completed  => status 
+// doi completed ? Hoan thanh : chua hoan thanh  
+ // Hàm If viết tắt chỉ dùng cho trường hợp "TRUE OR FALSE" và chỉ có 2 điều kiện
+const tranformedJobList = jobListtest.map((job) => {
+  const statuschanged =  job.completed ? "Xong":"Chứa"
 
-  const job2a = { id: 2, title: 'Đọc sách', status: job2.completed }
-  const d = (e) => {
-    if (e==true){
-      return {id: 2, title: 'Đọc sách', status:"Xong òi ạ"}
-    }else{ return {id: 2, title: 'Đọc sách', status:"chưa má ơi"}} }
-  const job2b=d(job2.completed)
-  //console.log (job2b)
-
-
-
-  const job3a = { id: 3, title: 'Viết email', status: job3.completed }
-  const f = (h) => {
-    if (h==true){
-      return { id: 3, title: 'Viết email', status:"Xong òi ạ"}
-    }else{ return { id: 3, title: 'Viết email', status:"chưa má ơi"}} }
-  const job3b=f(job3.completed)
-  //console.log (job3b)
-
-
-
-
-  const job4a = { id: 4, title: 'Học guitar', status: job4.completed }
-const e = (g) => {
-    if (g==true){
-      return { id: 4, title: 'Học guitar', status:"Xong òi ạ"}
-    }else{ return { id: 4, title: 'Học guitar', status: "chưa má ơi"}} }
-  const job4b=e(job4.completed)
-  //console.log (job4b)
-
-  jobList2 = [job1b,job2b,job3b,job4b]
-const change = jobList2.map(key => ({ id: key.id , title: key.title, status: key.status}))
-console.log(change)
+  return {
+    id: job.id, 
+    title: job.title,
+    status: statuschanged,
+  }
+})
+console.log (tranformedJobList)
