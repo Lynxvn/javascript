@@ -7,7 +7,7 @@ const travelDestinations = [
   ];
 
   
-//   Sử dụng filter() để tạo một danh sách mới chỉ bao gồm các địa điểm có độ rating cao hơn 4.3.
+// Sử dụng filter() để tạo một danh sách mới chỉ bao gồm các địa điểm có độ rating cao hơn 4.3.
 
 // Sử dụng map() để biến đổi danh sách các địa điểm du lịch nếu rating > 4.6 : recommended = "please visit"
 // return Continents : North America, Asia, Eroupe based on the country
