@@ -117,7 +117,7 @@ const jobListtest = [
 // doi completed ? Hoan thanh : chua hoan thanh  
  // Hàm If viết tắt chỉ dùng cho trường hợp "TRUE OR FALSE" và chỉ có 2 điều kiện
 const tranformedJobList = jobListtest.map((job) => {
-  const statuschanged =  job.completed ? "Xong":"Chứa"
+  const statuschanged =  job.completed ? "Xong":"Chứa" //=> Viết tắt của if
 
   return {
     id: job.id, 

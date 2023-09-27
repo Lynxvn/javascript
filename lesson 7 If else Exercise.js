@@ -10,7 +10,7 @@
 // // console.log(c)
 
 // // const number = (a) => {
-// //     var c=(a%2==0) ?"số chẳn":"số lẻ"
+// //     var c=(a%2==0) ?"số chẳn":"số lẻ" => If viết tắt
 // //     return c
 // // }
 // // var d = number(12)
