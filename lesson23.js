@@ -6,7 +6,7 @@
 //     { name: 'Sydney', country: 'Australia', rating: 4.7 } ____
 //   ];
 
-  
+
 // Sử dụng filter() để tạo một danh sách mới chỉ bao gồm các địa điểm có độ rating cao hơn 4.3.
 
 // Sử dụng map() để biến đổi danh sách các địa điểm du lịch nếu rating > 4.6 : recommended = "please visit"
@@ -24,25 +24,27 @@
 // } )
 // console.log(destinations1s)
 
-travelDestinations = ["Paris", "Japan", "USA", "Italy" ,"Australia"]
-Continents (x) {
+// return Continents : North America, Asia, Eroupe based on the country
 
-switch (x)
+travelDestinations = ["Paris", "Japan", "USA", "Italy", "Australia"]
+function Change(x) {
+    switch (x) {
+        case "Paris":
+            return ("EU");
+            break;
+        case "Japan":
+            return ("ASIA");
+            break;
+        case "USA":
+            return ("Nor America");
+            break;
+        case "Italy":
+            return ("EU");
+            break;
+        default:
+            return ("Úc");
+    }
+}
+const destinations1 = travelDestinations.map((Continent) => Change(Continent))
+console.log(destinations1)
 
- {
-    case "Paris":
-        console.log("EU");
-        break;
-    case "Japan":
-        console.log("ASIA");
-        break;
-    case "USA":
-        console.log("Nor America");
-        break;
-    case "Italy":
-        console.log("EU");
-        break;
-    default:
-        console.log("Úc");
-}}
-const destinations1s = travelDestinations.map((Continents) => {})
