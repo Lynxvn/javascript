@@ -46,7 +46,7 @@
 // ---------------------- Exercise------------------------
 // cho người dùng enter ngày (1-7 )
 // xác định ngày off và work và study dưa vào số ngày làm việc
-// const prompt = require("prompt-sync")({ sigint: true })
+ //const prompt = require("prompt-sync")({ sigint: true })
 // a = parseInt(prompt("Ngày "))
 // switch (a) {
 //     case 1:
