@@ -2,5 +2,9 @@
     "[python]": {
         "editor.defaultFormatter": "ms-python.autopep8"
     },
-    "python.formatting.provider": "none"
+    "python.formatting.provider": "none",
+    "editor.occurrencesHighlight": true,
+    "editor.parameterHints.enabled": true,
+    "editor.showUnused": true,
+    "editor.smoothScrolling": false
 }
