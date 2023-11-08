@@ -62,6 +62,6 @@ function Thứmấy(x){
     } 
     
 }
-c=Thứmấy(5)
+c=Thứmấy()
 console.log(c)
 

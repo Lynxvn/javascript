@@ -27,3 +27,20 @@
 //     ];
 // const names = people.filter((ten) => ten.salary <50000)
 //         console.log(names)
+// let fruit = "apple";
+// switch(fruit) {
+//     case "banana":
+//         console.log("Banana is good for digestion.");
+//         break;
+//     case "apple":
+//         console.log("Apple is rich in antioxidants.");
+//         break;
+//     case "mango":
+//         console.log("Mango is high in vitamin C.");
+//         break;
+//     default:
+//         console.log("I don't have information about that fruit.");
+// }
+// as=[1,2,3,4,5]
+// c=as.filter((a)=>a>3)
+// console.log(c)
